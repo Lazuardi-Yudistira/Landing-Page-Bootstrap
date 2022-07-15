@@ -1,0 +1,177 @@
+/*navbar*/
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+
+
+
+/*jumbotron*/
+.jumbotron {
+	background-image: url(../img/jumbotron-bg.jpg);
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+
+}
+
+
+.jumbotron .display-4 {
+	color: white;
+	margin-top: 150px;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+
+.jumbotron .container h1 span {
+	font-weight: bold;
+}
+
+
+/*info panel*/
+.info-panel {
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	background-color: white;
+	margin-top: -120px;
+	padding: 30px; 
+}
+
+/*workingspace*/
+.workingspace {
+	margin-top: 120px;
+	text-align: center;
+	
+}
+
+.workingspace img {
+	border-radius: 12px;
+}
+
+.workingspace h3 {
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 30px;
+
+}
+
+.workingspace h3 span {
+	font-weight: 500;
+}
+
+.workingspace p {
+	font-size: 18px;
+}
+
+
+/*testimonial*/
+.testimonial {
+	margin-top: 100px;
+}
+
+.testimonial h5 {
+	text-align: center;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.testimonial figure img {
+	width: 100px;
+	margin-top: 20px;
+
+}
+
+.testimonial figure	h5 {
+	font-size: 16px;
+	font-weight: bold;
+	font-size: normal;
+}
+
+
+.testimonial figure span {
+	font-size: 12px;
+	color: salmon;
+
+}
+
+.testimonial figcaption {
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+
+/* footer */
+.footer {
+	margin-top: 100px;
+}
+
+
+
+.footer p {
+	color: #ACACAC;
+	font-size: 18px;
+}s
+
+
+
+
+
+/*utility*/
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+
+}
+
+
+
+
+/*desktop version*/
+@media (min-width: 992px) {
+	.navbar-brand, .nav-link {
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+
+
+	.nav-link {
+	text-transform: uppercase;
+	margin-right: 30px;
+	}
+
+	.nav-link:hover::after {
+		content: "";
+		display: block;
+		border-bottom: 3px solid #0B63DC; 
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+
+
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+		height: 640px;
+	}
+
+
+	.jumbotron .display-4 {
+		font-size: 62px;
+	}
+
+	.workingspace {
+		text-align: left;
+	}
+
+	.testimonial h5 {
+		font-size: 32px;
+	}
+
+}
